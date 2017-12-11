@@ -1,6 +1,6 @@
 {
     "name": "appu",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Fancified interface for image uploading to GitHub.",
     "main": "app.js",
     "scripts": {
@@ -27,10 +27,10 @@
     },
     "dependencies": {
         "base-64": "^0.1.0",
-        "base62": "^1.2.0",
+        "base62": "^1.2.1",
         "express": "^4.16.1",
         "github": "^11.0.0",
-        "helmet": "^3.8.2",
+        "helmet": "^3.9.0",
         "mime": "^2.0.3",
         "multer": "^1.3.0"
     }

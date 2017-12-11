@@ -45,7 +45,7 @@ app.post("/upload", upload.array("images"), async (req, res) => {
     for(const file of req.files) {
         const ext = mime.getExtension(file.mimetype);
         // Skip the file if it isn't an image
-        if("gif|ico|jpeg|png".indexOf(ext) === -1) {
+        if("gif|ico|jpeg|png|svg".indexOf(ext) === -1) {
             continue;
         }
         files.push({
